@@ -1,3 +1,6 @@
+.page-container {
+  display: flex;
+}
 main {
   width: 100%;
   background-color: rgb(237, 236, 236);
