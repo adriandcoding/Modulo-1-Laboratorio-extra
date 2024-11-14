@@ -27,3 +27,30 @@ main {
     border-radius: 50%;
   }
 }
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    height: 65px;
+    width: 100%;
+    justify-content: center;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    .list {
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+    .card-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border: none;
+    }
+  }
+}
