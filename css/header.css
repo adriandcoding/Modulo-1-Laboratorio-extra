@@ -1,0 +1,14 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(250, 251, 237);
+}
+.page-title {
+  font-size: 1.5rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+  background-color: rgb(222, 231, 128);
+}
