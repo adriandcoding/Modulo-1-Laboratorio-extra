@@ -1,3 +1,6 @@
+header {
+  height: 100px;
+}
 .toolbar {
   display: flex;
   justify-content: space-between;
